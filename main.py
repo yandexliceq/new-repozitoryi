@@ -1,5 +1,11 @@
-def main():
-    ...
+class Client:
+    cur_id = 1
 
-if __name__ == "__main__":
-    main()
+    def __init(self, name, money):
+        self.name = name
+        self.money = money
+        self.id = cur_id
+        cur_id += 1
+    
+    def signature(self):
+        print("Да")
